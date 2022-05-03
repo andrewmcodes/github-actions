@@ -7,3 +7,4 @@ runs:
   steps:
     - name: Bundler Audit
       run: bin/bundler-audit --update
+      shell: bash
