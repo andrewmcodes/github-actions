@@ -1,0 +1,9 @@
+name: Bundler Audit
+
+description: Security audit dependencies
+
+runs:
+  using: "composite"
+  steps:
+    - name: Bundler Audit
+      run: bin/bundler-audit --update
